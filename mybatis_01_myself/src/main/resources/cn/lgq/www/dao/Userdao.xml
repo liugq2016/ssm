@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<mapper namespace="cn.lgq.www.dao.UserDao">
+    <select id="findAll"  resultType="cn.lgq.www.domain.User">
+        select * from USER ;
+    </select>
+</mapper>
